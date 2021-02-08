@@ -23,7 +23,6 @@ const productSchema = mongoose.Schema(
     brand: {
       type: String,
       required: true,
-      unique: true,
     },
     category: {
       type: String,
