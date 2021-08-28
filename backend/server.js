@@ -9,6 +9,7 @@ import userRoutes from "./routes/userRoutes.js";
 
 dotenv.config();
 
+// Connect to Mondo db
 connectDB();
 
 const app = express();
